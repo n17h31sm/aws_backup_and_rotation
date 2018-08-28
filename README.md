@@ -6,6 +6,7 @@ The image creation and moving script should be on a seperate host from the backu
 Example cronjobs:
 
 1 ZONE HOST:
+
 0 8 * * * back_up_aws_move.py
 0 9 * * * move_aws_image.py
 0 10 * * * cleanup.py
