@@ -8,10 +8,13 @@ Example cronjobs:
 1 ZONE HOST:
 
 0 8 * * * back_up_aws_move.py
+
 0 9 * * * move_aws_image.py
+
 0 10 * * * cleanup.py
 
 2 ZONE HOST (where you move images to):
 
 0 6 * 3 * backup_rotation.py
+
 0 7 * * * clean_yesterdays_image.py
